@@ -41,6 +41,6 @@ Let your imagination run wild and take full control of your music library!
 
 
 ## 📂 How to Use
-Upload your audio file.
-Edit the file's metadata by changing its file name, artist name, album name, or cover image.
-Click the download button to save your newly tagged file
+- **Upload your audio file.**
+- **Edit the file's metadata by changing its file name, artist name, album name, or cover image.**
+- **Click the download button to save your newly tagged file**
