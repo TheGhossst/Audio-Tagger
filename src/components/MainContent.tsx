@@ -100,7 +100,21 @@ export function MainContent() {
         document.body.appendChild(a);
         a.click(); // Simulate a click to download the file
         window.URL.revokeObjectURL(url); // Clean up the URL object
+    
+        // Clear file inputs and reset state after download
+        setFile(null);
+        setMetadata({ title: '', artist: '', album: '' });
+        setCoverImage(null);
+    
+        // Reset the input file elements
+        if (fileInputRef.current) {
+            fileInputRef.current.value = '';
+        }
+        if (imageInputRef.current) {
+            imageInputRef.current.value = '';
+        }
     };
+    
     
 
     return (
