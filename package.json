@@ -11,9 +11,6 @@
   },
   "dependencies": {
     "browser-id3-writer": "^6.1.0",
-    "fs": "^0.0.1-security",
-    "fs-js": "^1.0.6",
-    "jsmediatags": "^3.9.7",
     "lucide-react": "^0.446.0",
     "music-metadata-browser": "^2.5.11",
     "react": "^18.3.1",
