@@ -39,7 +39,7 @@ Let your imagination run wild and take full control of your music library!
 ## 🛠️ Technologies Used
 - **React.js**: For building the user interface.
 - **HTML5/CSS3**: For structuring and styling the web pages.
-- **TypeScipt**: For handling logic and file processing.
+- **TypeScript**: For handling logic and file processing.
 
 
 ## 📂 How to Use
