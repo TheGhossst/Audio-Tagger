@@ -26,14 +26,14 @@ Let your imagination run wild and take full control of your music library!
 
 1. Clone this repository:
    ```bash
-  git clone https://github.com/your-username/TuneTagger.git
+   git clone https://github.com/your-username/TuneTagger.git
    ```
 2. Navigate to the project folder and install dependencies:
   ```bash
-  npm i
+   npm i
   ```
   ```bash
-  npm run dev
+   npm run dev
   ```
 
 ## 🛠️ Technologies Used
