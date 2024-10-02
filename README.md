@@ -34,13 +34,13 @@ Let your imagination run wild and take full control of your music library!
     npm run dev
   ```
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 React.js: For building the user interface.
 HTML5/CSS3: For structuring and styling the web pages.
 JavaScript: For handling logic and file processing.
 
 
-📂 How to Use
+## 📂 How to Use
 Upload your audio file.
 Edit the file's metadata by changing its file name, artist name, album name, or cover image.
 Click the download button to save your newly tagged file
