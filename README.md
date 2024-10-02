@@ -31,6 +31,8 @@ Let your imagination run wild and take full control of your music library!
 2. Navigate to the project folder and install dependencies:
   ```bash
     npm i
+  ```
+  ```bash
     npm run dev
   ```
 
