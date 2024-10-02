@@ -29,12 +29,12 @@ Let your imagination run wild and take full control of your music library!
    git clone https://github.com/your-username/TuneTagger.git
    ```
 2. Navigate to the project folder and install dependencies:
-  ```bash
+   ```bash
    npm i
-  ```
-  ```bash
+   ```
+   ```bash
    npm run dev
-  ```
+   ```
 
 ## 🛠️ Technologies Used
 - **React.js**: For building the user interface.
