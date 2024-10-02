@@ -28,3 +28,19 @@ Let your imagination run wild and take full control of your music library!
    ```bash
    git clone https://github.com/your-username/TuneTagger.git
    ```
+2. Navigate to the project folder and install dependencies:
+  ```bash
+    npm i
+    npm run dev
+  ```
+
+🛠️ Technologies Used
+React.js: For building the user interface.
+HTML5/CSS3: For structuring and styling the web pages.
+JavaScript: For handling logic and file processing.
+
+
+📂 How to Use
+Upload your audio file.
+Edit the file's metadata by changing its file name, artist name, album name, or cover image.
+Click the download button to save your newly tagged file
