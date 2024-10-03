@@ -1,9 +1,10 @@
+import heroimage from '../assets/images/heroimage.png'
 
 export function Hero(){
     return (
         <div className = "hero-container">
             <img 
-                src = ""
+                src = { heroimage }
                 alt = "Hero Image"
                 className = "hero-image"
             />
