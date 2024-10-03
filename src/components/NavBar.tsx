@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/images/logo.png';
 import github from '../assets/images/github.png';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, BadgeInfo} from 'lucide-react';
 
 export function NavBar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -33,6 +33,7 @@ export function NavBar() {
                     className="github-icon" 
                 />
             </a>
+            <BadgeInfo className="badge-info-icon" />
           </div>
           <div className = "mobile-menu">
             <button 
