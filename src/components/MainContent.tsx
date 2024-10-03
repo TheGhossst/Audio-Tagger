@@ -79,6 +79,8 @@ export function MainContent() {
     
         // Create a Blob from the tagged audio buffer
         const taggedBlob = new Blob([writer.getBlob()], { type: file.type });
+
+        const fileExtension = file.name.split('.').pop()?.toLowerCase() || 'mp3'; 
     
         // Generate a URL for the Blob
         const url = URL.createObjectURL(taggedBlob);
@@ -87,7 +89,7 @@ export function MainContent() {
         const a = document.createElement('a');
         a.style.display = 'none';
         a.href = url;
-        a.download = `${metadata.title}.mp3`;
+        a.download = `${metadata.title}.${fileExtension}`;
         document.body.appendChild(a);
         a.click(); // Simulate a click to download the file
         window.URL.revokeObjectURL(url); // Clean up the URL object
@@ -123,7 +125,7 @@ export function MainContent() {
                         ref={fileInputRef}
                         className="hidden-input"
                         onChange={handleFileChange}
-                        accept="audio/*"
+                        accept=".mp3, .wav"
                     />
                     {file && <p className="file-name">{file.name}</p>}
                 </div>
