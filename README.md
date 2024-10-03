@@ -35,6 +35,11 @@ Let your imagination run wild and take full control of your music library!
    ```bash
    npm run dev
    ```
+## 📷 Preview
+<p align="center">
+  <img src="./src/assets/images/ss.png" alt="ss" width="fit-content"/>
+</p>
+
 
 ## 🛠️ Technologies Used
 - **React.js**: For building the user interface.
