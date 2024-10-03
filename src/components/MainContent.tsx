@@ -19,16 +19,7 @@ export function MainContent() {
         const selectedFile = event.target.files?.[0] || null;
         if (selectedFile) { 
             setFile(selectedFile);
-    
-            // Safely access the title input and set its value if it exists
-            const titleInput = document.getElementById('title') as HTMLInputElement | null;
-            if (titleInput) {
-                titleInput.value = selectedFile.name;
-                console.log(`file name -> ${selectedFile.name}`)
-            }
-            else{
-                console.log("idk");
-            }
+            setMetadata({...metadata, title: selectedFile.name});
         }
     
         console.log(selectedFile);
@@ -143,7 +134,7 @@ export function MainContent() {
                             <label htmlFor="title">Title</label>
                             <input
                                 id="title"
-                                name="title"
+                                name="title"                             
                                 value={metadata.title}
                                 onChange={handleMetadataChange}
                                 className="input"
