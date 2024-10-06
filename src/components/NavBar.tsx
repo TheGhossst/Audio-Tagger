@@ -35,7 +35,13 @@ export function NavBar() {
                 className="github-icon" 
               />
             </a>
-            <BadgeInfo className="badge-info-icon" />
+            <button
+              onClick={() => alert("Click")}
+              className="info-btn"
+              aria-label="Show information"
+            >
+              <BadgeInfo className="badge-info-icon" />
+            </button>
           </div>
 
           <div className="mobile-menu">

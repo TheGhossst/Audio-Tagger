@@ -96,12 +96,25 @@ body {
   margin-left: 1rem;
   transition: transform 0.3s ease, fill 0.3s ease;
   cursor: pointer;
+  position: absolute;
 }
 
 .badge-info-icon:hover {
   transform: scale(1.1);
   fill: #007bff;
 }
+
+.info-btn {
+  position: relative;
+  background-color: inherit;
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .mobile-menu button {
   display: none;
