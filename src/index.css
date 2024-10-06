@@ -197,6 +197,19 @@ body {
   position: relative;
 }
 
+.popup-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #6b7280;
+  transition: color 0.2s ease;
+}
+
+.popup-btn:hover {
+  color: #374151;
+}
+
+
 .container{
   display: flex;
   flex-direction: column;
