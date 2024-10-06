@@ -2,9 +2,15 @@ import { useState } from 'react';
 import logo from '../assets/images/logo.png';
 import github from '../assets/images/github.png';
 import { Menu, X, BadgeInfo } from 'lucide-react';
+import { InfoPopup } from './InfoPopup';
 
 export function NavBar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+  const [infoPopupOpen, setInfoPopupOpen] = useState(false);
+
+  const toggleInfoPopup = () => {
+    setInfoPopupOpen(!infoPopupOpen);
+  };
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
@@ -36,7 +42,8 @@ export function NavBar() {
               />
             </a>
             <button
-              onClick={() => alert("Click")}
+              /*onClick={() => alert("Click")}*/
+              onClick = { toggleInfoPopup }
               className="info-btn"
               aria-label="Show information"
             >
@@ -55,6 +62,10 @@ export function NavBar() {
           </div>
         </div>
       </div>
+      <InfoPopup 
+        isOpen={infoPopupOpen} 
+        onClose={() => setInfoPopupOpen(false)} 
+      />
     </nav>
   );
 }
