@@ -37,6 +37,7 @@ Let your imagination run wild and take full control of your music library!
    ```
 ## 📷 Preview
 <p align="center">
+   <img src="./src/assets/images/ss.png" alt="ss" width="fit-content"/>
 </p>
 
 
