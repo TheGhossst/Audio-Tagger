@@ -1,53 +1,36 @@
-<p align="center">
-  <img src="./src/assets/images/logo.png" alt="TuneTagger Logo" width="200"/>
-</p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<h1 align="center">TuneTagger</h1>
+## Getting Started
 
-## 🎶 About TuneTagger
+First, run the development server:
 
-TuneTagger is a powerful and easy-to-use tool that allows you to personalize your audio files with your own creative flair. With TuneTagger, you can modify the following attributes of an audio file:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **File Name**: Rename the file to match your preference or organization style.
-- **Artist Name**: Add or change the artist name to personalize it.
-- **Album Name**: Customize the album name of the track.
-- **Cover Image**: Upload your own artwork to make the track stand out.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Let your imagination run wild and take full control of your music library!
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ✨ Features
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **Simple UI**: An intuitive and user-friendly interface for easy tagging.
-- **Full Control**: Complete freedom to modify audio file metadata, including file name, artist, album, and cover image.
-- **Download Feature**: Download the tagged audio file with all the changes applied.
-- **Lightweight & Fast**: Efficient and quick tagging with minimal steps.
+## Learn More
 
-## 🚀 Getting Started
+To learn more about Next.js, take a look at the following resources:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/TuneTagger.git
-   ```
-2. Navigate to the project folder and install dependencies:
-   ```bash
-   npm i
-   ```
-   ```bash
-   npm run dev
-   ```
-## 📷 Preview
-<p align="center">
-   <img src="./src/assets/images/ss.png" alt="ss" width="fit-content"/>
-</p>
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🛠️ Technologies Used
-- **React.js**: For building the user interface.
-- **HTML5/CSS3**: For structuring and styling the web pages.
-- **TypeScript**: For handling logic and file processing.
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📂 How to Use
-- **Upload your audio file.**
-- **Edit the file's metadata by changing its file name, artist name, album name, or cover image.**
-- **Click the download button to save your newly tagged file**
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
